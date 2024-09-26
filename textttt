@@ -1,0 +1,3 @@
+UPDATE `password` SET `Name`='value-2',`Username`='value-3',`Kpswd`='value-4',`Link`='value-5' WHERE `Name`='Support'; 
+
+UPDATE password SET Username='newusername', Kpswd='newpswd', Link='newlink' WHERE Name='osTicket'; 

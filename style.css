@@ -1,0 +1,275 @@
+/*Login-page*/
+.login-body{
+	margin: 0px;
+  	margin-top: -25px;
+  	padding: 0px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.tag h1{
+	margin: -8px;
+	font-size: 25px;
+	 background-image: linear-gradient(to right, #402334,white); 
+	padding-bottom: 0px;
+	padding-left: 4px;
+	color: white;
+	text-align: left;
+}
+
+
+.main{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.image{
+	position: absolute;
+	z-index: 0;
+}
+
+.container{
+	z-index: 1;
+	position: relative;
+}
+
+.main img{
+	opacity: 0.96;
+}
+
+.heading{
+	padding-top: 60px;
+	position: relative;
+	color: white;
+	text-decoration: underline;
+}
+
+.container {
+	margin-left: 500px;
+	margin-top: 35px;
+	color:  white;
+	font-size: 24px;
+}
+
+
+/*Dashboard Tag */
+.tag-left{
+	float: left;
+	width: 90%;
+}
+
+
+.tag-right{
+	float: right;
+	width: 10%;
+	font-size: 20px;
+}
+
+.tag-right a{
+	font-size: 16px;
+
+}
+
+
+.tag-right a:link,
+td a:link{
+  text-decoration: none;
+} 
+
+
+.tag-right img{
+	width: 32px;
+	height: 32px;
+}
+
+.tag-right a[href|="login.php"]{
+	color: red;
+	margin: 0;
+	padding: 0;
+	margin-top: -20px;
+}
+
+
+h1 {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	margin-top: 20px;
+	color: #006600;
+	font-size: 32px;
+	font-family: 'Gill Sans', 'Gill Sans MT',
+	' Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+
+
+
+/*Table dashboard view- table*/
+table {
+	clear: both;
+	margin: 0 auto;
+	font-size: 16px;
+	border: 1px solid lightgrey;
+}
+
+
+th {
+	background-color: #D42B6A;
+	color: white;
+	font-size: 23px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+th,
+td {
+	font-weight: bold;
+	border: 1px solid black;
+	border: whitesmoke;
+	padding: 7px 18px 7px 18px;
+	text-align: center;
+}
+td {
+	font-weight: lighter;
+}
+
+
+
+fieldset{
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: white;
+}
+
+fieldset input[type='text'],
+fieldset input[type='password']{
+	width: 350px;
+	height: 25px;
+	border-radius: 4px;
+	border: none;
+	bac
+}
+
+fieldset input[type='submit']{
+	margin-left: 300px;
+	padding: 4px 16px;
+	border-radius: 12px;
+	border: none;
+}
+
+fieldset input[type='submit']:hover{
+	margin-left: 300px;
+	padding: 6px 18px;
+	border-radius: 12px;
+	background-color: darkgrey;	border: none;
+
+	cursor: pointer;
+}
+
+
+button {
+	margin-left: 1200px;
+	margin-bottom: 5px;
+	padding: 5px 15px 5px 15px;
+}
+
+button:hover {
+	margin-left: 1200px;
+	margin-bottom: 5px;
+	padding: 7px 15px 7px 14px;
+	background-color: #D42B6A;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	opacity: 0.6;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*ICON STYLING
+.search i.mg {
+	position: absolute;
+	padding-left: 6px;
+}
+
+.search im.g:hover{
+position: absolute;
+	background-color: lightgrey;
+	padding: 6px 200px 6px 10px;
+	border-radius: 12px;
+	  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+} */
+.search{
+	margin-left: 45px;
+}
+
+.search ::selection{
+	visibility: hidden;
+}
+
+.search input[type='text']:hover{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	background-color: #D42B6A;
+	opacity: 0.77;
+	border-radius: 9px;
+	padding: 5px 0px 6px 40px;
+	font-size: 15px;
+	margin-left: -30px;
+	margin-top: -4px;
+
+}
+
+input.middle:focus {
+    outline-width: 0;
+    border-color: white;
+}
+
+.search input[type='text']{
+	color: white;
+}
+
+.search img{
+	position: relative;
+	padding-bottom: -15px;
+	color: white;
+}
+
+
+
+/* Insert butoon */
+#mytable input[name='SNo'] {
+	width: 32px;
+}
+
+
+#mytable input[type='submit']{
+	padding: 2px 17px 2px 22px;
+	border-radius: 2px;
+}
+
+#mytable input[type='submit']:hover,
+input[value='Delete row']:hover{
+	background-color: #D42B6A;
+	cursor: pointer;
+	color: white;
+	border: none;
+	padding: 5px 14px 5px 14px;
+	border-radius: 6px;
+}
+
+
+.add-row{
+	clear: both;
+	margin-top: 10px;
+}
